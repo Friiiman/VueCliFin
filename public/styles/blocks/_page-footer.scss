@@ -1,0 +1,98 @@
+.page-footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px 110px;
+
+    & .linear {
+        height: 100%;
+    }
+
+    &__social {
+        min-width: 40%;
+    }
+
+    &__social-text {
+        max-width: 393px;
+        margin-bottom: 31px;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+    }
+
+    &__social-items {
+        display: flex;
+        gap: 54px;
+    }
+
+    &__social-link:hover svg path {
+        fill: $second-color;
+    }
+
+    &__logo {
+        display: inline-block;
+        margin-bottom: 18px;
+        max-width: 177px;
+    }
+
+    &__nav {
+        width: 100%;
+    }
+
+    &__nav-header {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    &__nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__nav-link {
+        font-size: 22px;
+        line-height: 66px;
+        letter-spacing: 0.01em;
+
+        &:hover {
+            color: $second-color;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        min-width: 258px;
+    }
+
+    &__contact-header {
+        margin-bottom: 26px;
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    &__contact-text {
+        display: flex;
+        flex-direction: column;
+        max-width: 258px;
+        font-size: 22px;
+        letter-spacing: 0.01em;
+    }
+
+    &__contact-address {
+        margin-bottom: 38px;
+    }
+
+    &__contact-mail:hover,
+    &__contact-phone:hover {
+        color: $second-color;
+    }
+
+    &__contact-mail {
+        margin-bottom: 33px;
+    }
+}
