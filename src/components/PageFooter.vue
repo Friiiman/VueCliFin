@@ -5,7 +5,7 @@
         <div class="linear linear__right-linear"></div>
 
         <div class="page-footer__social">
-            <a href="#" class="page-footer__logo">
+            <a href="index.html" class="page-footer__logo">
                 <img src="styles/img/main-logo.svg" alt="logo" class="page-footer__logo-img">
             </a>
             <p class="page-footer__social-text">It is a long established fact that a reader will be distracted
@@ -32,10 +32,10 @@
             <h2 class="page-footer__nav-header">Pages</h2>
             <ul class="page-footer__nav-list">
                 <li class="page-footer__nav-item">
-                    <a href="#" class="page-footer__nav-link">Home</a>
+                    <a href="index.html" class="page-footer__nav-link">Home</a>
                 </li>
                 <li class="page-footer__nav-item">
-                    <a href="#" class="page-footer__nav-link">Project</a>
+                    <a href="project.html" class="page-footer__nav-link">Project</a>
                 </li>
                 <li class="page-footer__nav-item">
                     <a href="blog.html" class="page-footer__nav-link">Blog</a>

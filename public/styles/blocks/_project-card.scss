@@ -1,20 +1,8 @@
-.projects-card {
-    max-width: 550px;
+.project-card {
+    grid-row: span 2;
 
-    &:nth-child(1) img {
-        border-radius: 0 80px 0 0;
-    }
-
-    &:nth-child(2) img {
-        border-radius: 80px 0 0 0;
-    }
-
-    &:nth-child(3) img {
-        border-radius: 0 0 80px 0;
-    }
-
-    &:nth-child(4) img {
-        border-radius: 0 0 0 80px;
+    &--big {
+        grid-row: span 3;
     }
 
     &__img {

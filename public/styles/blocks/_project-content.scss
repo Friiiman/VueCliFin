@@ -1,0 +1,57 @@
+.project-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px 200px;
+
+    & .linear {
+        height: 100%;
+    }
+
+    &__tags {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        max-width: 880px;
+        margin-bottom: 61px;
+        border: 1px solid $second-color;
+        border-radius: 18px;
+    }
+
+    &__tag {
+        width: 220px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        background-color: transparent;
+        border: none;
+        border-radius: 16px;
+        letter-spacing: 0.02em;
+        cursor: pointer;
+
+        &:hover {
+            color: $white-color;
+            background-color: $second-color;
+        }
+
+        &--active {
+            color: $white-color;
+            background-color: $second-color;
+        }
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
+        grid-column-gap: 30px;
+        grid-row-gap: 35px;
+        margin-bottom: 61px;
+    }
+}

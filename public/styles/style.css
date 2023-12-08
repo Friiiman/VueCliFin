@@ -178,8 +178,9 @@ img {
 .projects {
   position: relative;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
   gap: 93px;
   max-width: 1240px;
   margin: 0 auto 96px;
@@ -201,33 +202,27 @@ img {
   letter-spacing: 0.01em;
 }
 .projects__project-cards {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 56px;
-  width: 100%;
-}
-.projects__project-cards-up, .projects__project-cards-down {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 40px;
-}
-.projects__project-cards-up .projects-card:first-child img {
-  border-radius: 0 80px 0 0;
-}
-.projects__project-cards-up .projects-card:last-child img {
-  border-radius: 80px 0 0 0;
-}
-.projects__project-cards-down .projects-card:first-child img {
-  border-radius: 0 0 80px 0;
-}
-.projects__project-cards-down .projects-card:last-child img {
-  border-radius: 0 0 0 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 56px;
 }
 
 .projects-card {
   max-width: 550px;
+}
+.projects-card:nth-child(1) img {
+  border-radius: 0 80px 0 0;
+}
+.projects-card:nth-child(2) img {
+  border-radius: 80px 0 0 0;
+}
+.projects-card:nth-child(3) img {
+  border-radius: 0 0 80px 0;
+}
+.projects-card:nth-child(4) img {
+  border-radius: 0 0 0 80px;
 }
 .projects-card__img {
   margin-bottom: 24px;
@@ -797,6 +792,136 @@ img {
 .blog-details-card__img-second {
   margin-bottom: 35px;
   border-radius: 50px;
+}
+
+.project-promo {
+  height: 356px;
+  margin-bottom: 200px;
+  background-image: url(../styles/img/project-promo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.project-promo .center-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.project-promo .linear {
+  top: 0;
+  height: 160%;
+}
+.project-promo__content {
+  min-width: 504px;
+  padding: 41px 78px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 37px 37px 0 0;
+}
+.project-promo__title {
+  font-size: 50px;
+  line-height: 62px;
+}
+.project-promo__text {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+}
+
+.project-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px 200px;
+}
+.project-content .linear {
+  height: 100%;
+}
+.project-content__tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  max-width: 880px;
+  margin-bottom: 61px;
+  border: 1px solid #CDA274;
+  border-radius: 18px;
+}
+.project-content__tag {
+  width: 220px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: transparent;
+  border: none;
+  border-radius: 16px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.project-content__tag:hover {
+  color: #fff;
+  background-color: #CDA274;
+}
+.project-content__tag--active {
+  color: #fff;
+  background-color: #CDA274;
+}
+.project-content__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 35px;
+  margin-bottom: 61px;
+}
+
+.project-card {
+  grid-row: span 2;
+}
+.project-card--big {
+  grid-row: span 3;
+}
+.project-card__img {
+  margin-bottom: 24px;
+}
+.project-card__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.project-card__title {
+  margin-bottom: 4px;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+}
+.project-card__type {
+  font-size: 22px;
+  letter-spacing: 0.01em;
+}
+.project-card__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #F4F0EC;
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+.project-card__link:hover {
+  background-color: #CDA274;
+}
+.project-card__link svg {
+  margin-left: 5px;
 }
 
 .pagination {
