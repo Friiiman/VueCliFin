@@ -77,22 +77,6 @@ export default {
   name: 'BlogDetailsContent',
   components: {
     TagsFilter
-  },
-
-  data () {
-    return {
-
-    }
-  },
-
-  mounted () {
-
-  },
-
-  methods: {
-
   }
 }
 </script>
-
-<style lang="scss" scoped></style>

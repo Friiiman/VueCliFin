@@ -41,21 +41,6 @@
 
 <script>
 export default {
-  name: 'IndexAbout',
-
-  data () {
-    return {
-    }
-  },
-
-  mounted () {
-
-  },
-
-  methods: {
-
-  }
+  name: 'IndexAbout'
 }
 </script>
-
-<style lang="scss" scoped></style>

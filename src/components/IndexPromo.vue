@@ -23,22 +23,6 @@
 
 <script>
 export default {
-  name: 'IndexPromo',
-
-  data () {
-    return {
-
-    }
-  },
-
-  mounted () {
-
-  },
-
-  methods: {
-
-  }
+  name: 'IndexPromo'
 }
 </script>
-
-<style lang="scss" scoped></style>

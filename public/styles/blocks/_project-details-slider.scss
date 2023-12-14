@@ -1,0 +1,53 @@
+.project-details-slider {
+    position: relative;
+    max-width: 1240px;
+    max-height: 800px;
+    margin: 0 auto 220px;
+    padding: 0 20px;
+
+    &__item {
+        margin-bottom: 20px;
+        transition: all .5s;
+        cursor: pointer;
+
+        &::before {
+            content: url('../styles/img/slider-zoom.svg');
+            position: absolute;
+            opacity: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: calc(50% - 66px);
+            top: calc(50% - 66px);
+            width: 132px;
+            height: 132px;
+            border-radius: 100%;
+            background-color: #fff;
+            transition: all .5s;
+        }
+
+        &:hover::before {
+            opacity: 1;
+        }
+
+        & img {
+            border-radius: 70px;
+        }
+    }
+
+    &__pagination {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    &__pagination-item {
+        height: 25px;
+        width: 25px;
+        background-color: inherit;
+        border-radius: 100px;
+        border: 3px solid $black-color;
+        font-size: 0;
+        cursor: pointer;
+    }
+}
