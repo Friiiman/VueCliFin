@@ -4,8 +4,8 @@ import MainPage from '@/pages/MainPage.vue'
 import BlogPage from '@/pages/BlogPage.vue'
 import BlogDetailsPage from '@/pages/BlogDetailsPage.vue'
 import ProjectPage from '@/pages/ProjectPage.vue'
-import ProjectDetails from '@/pages/ProjectDetailsPage.vue'
-import NotFound from '@/pages/NotFound.vue'
+import ProjectDetailsPage from '@/pages/ProjectDetailsPage.vue'
+import NotFoundPage from '@/pages/NotFoundPage.vue'
 
 Vue.use(VueRouter)
 
@@ -34,12 +34,12 @@ export default new VueRouter({
     {
       path: '/projectDetails',
       name: 'projectDetails',
-      component: ProjectDetails
+      component: ProjectDetailsPage
     },
     {
       path: '*',
       name: 'notFound',
-      component: NotFound
+      component: NotFoundPage
     }
   ]
 })
