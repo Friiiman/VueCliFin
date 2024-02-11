@@ -17,7 +17,7 @@ export default new VueRouter({
       component: MainPage
     },
     {
-      path: '/blog',
+      path: '/blog/:page?',
       name: 'blog',
       component: BlogPage
     },

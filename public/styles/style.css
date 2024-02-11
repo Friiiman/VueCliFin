@@ -14,6 +14,14 @@
   font-weight: 500;
   src: url("../styles/fonts/jost-v15-latin-500.woff2") format("woff2");
 }
+/* jost-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../styles/fonts/jost-v15-latin-600.woff2") format("woff2");
+}
 /* dm-serif-display-regular - latin */
 @font-face {
   font-display: swap;
@@ -706,6 +714,9 @@ img {
 }
 
 .blog-details-card:not(:last-child) {
+  margin-bottom: 40px;
+}
+.blog-details-card__top {
   margin-bottom: 27px;
 }
 .blog-details-card__title {

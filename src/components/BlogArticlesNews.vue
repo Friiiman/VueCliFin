@@ -6,7 +6,9 @@
 
     <h2 class="blog-articles-news__title">Articles & News</h2>
     <div class="blog-articles-news__content">
+
       <BlogArticlesNewsCard />
+
       <div class="pagination">
         <button class="pagination__item pagination__item--selected">01</button>
         <button class="pagination__item">02</button>

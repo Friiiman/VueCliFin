@@ -1,6 +1,10 @@
 .blog-details-card {
 
     &:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    &__top {
         margin-bottom: 27px;
     }
 

@@ -55,116 +55,94 @@ export default new Vuex.Store({
         date: '2022-12-25',
         dateExpanded: '25 December,2022'
       }
-    ],
-    articlesTagsList: [
-      {
-        tag: 'Kitchen',
-        title: 'Kitchen 1',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Kitchen',
-        title: 'Kitchen 2',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Kitchen',
-        title: 'Kitchen 3',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Bedroom',
-        title: 'Bedroom 1',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Bedroom',
-        title: 'Bedroom 2',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Bedroom',
-        title: 'Bedroom 3',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Building',
-        title: 'Building 1',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Building',
-        title: 'Building 2',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Building',
-        title: 'Building 3',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Architecture',
-        title: 'Architecture 1',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Architecture',
-        title: 'Architecture 2',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Architecture',
-        title: 'Architecture 3',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Kitchen Planning',
-        title: 'Kitchen Planning 1',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Kitchen Planning',
-        title: 'Kitchen Planning 2',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Kitchen Planning',
-        title: 'Kitchen Planning 3',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Bathroom',
-        title: 'Bathroom 1',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Bathroom',
-        title: 'Bathroom 2',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      },
-      {
-        tag: 'Bathroom',
-        title: 'Bathroom 3',
-        description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis neque dolorum! Provident quibusdam maiores quia quisquam, velit quod accusantium, vero sunt adipisci nihil voluptate laudantium omnis eos ut voluptatem.'
-      }
+      // {
+      //   id: 7,
+      //   img: 'styles/img/articles-news-card/articles-news-card5.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 8,
+      //   img: 'styles/img/articles-news-card/articles-news-card5.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 9,
+      //   img: 'styles/img/articles-news-card/articles-news-card5.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 10,
+      //   img: 'styles/img/articles-news-card/articles-news-card5.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 11,
+      //   img: 'styles/img/articles-news-card/articles-news-card5.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 12,
+      //   img: 'styles/img/articles-news-card/articles-news-card5.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 13,
+      //   img: 'styles/img/articles-news-card/articles-news-card1.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 14,
+      //   img: 'styles/img/articles-news-card/articles-news-card1.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 15,
+      //   img: 'styles/img/articles-news-card/articles-news-card1.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 16,
+      //   img: 'styles/img/articles-news-card/articles-news-card1.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // },
+      // {
+      //   id: 17,
+      //   img: 'styles/img/articles-news-card/articles-news-card1.jpg',
+      //   type: 'Living Design',
+      //   name: 'Low Cost Latest Invented Interior Designing Ideas.',
+      //   date: '2022-12-22',
+      //   dateExpanded: '22 December,2022'
+      // }
     ],
     projectCardsList: [
       {
@@ -302,10 +280,6 @@ export default new Vuex.Store({
 
     articlesNewsCardsSliced (state) {
       return state.articlesNewsCardsList.slice(0, 3)
-    },
-
-    articlesTags (state) {
-      return state.articlesTagsList
     },
 
     projectCards (state) {
