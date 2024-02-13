@@ -146,6 +146,7 @@ export default new Vuex.Store({
     ],
     projectCardsList: [
       {
+        checked: false,
         sizeBig: true,
         imgSrc: 'styles/img/project-card-imgs/project-photo5.jpg',
         name: 'Minimal Bedroom',
@@ -153,6 +154,7 @@ export default new Vuex.Store({
         tag: 'Bedroom'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'styles/img/project-card-imgs/project-photo6.jpg',
         name: 'Minimal Bedroom',
@@ -160,6 +162,7 @@ export default new Vuex.Store({
         tag: 'Bedroom'
       },
       {
+        checked: false,
         sizeBig: true,
         imgSrc: 'styles/img/project-card-imgs/project-photo7.jpg',
         name: 'Modern Bedroom',
@@ -167,6 +170,7 @@ export default new Vuex.Store({
         tag: 'Bedroom'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'styles/img/project-card-imgs/project-photo8.jpg',
         name: 'Classic Minimal Bedroom',
@@ -174,6 +178,7 @@ export default new Vuex.Store({
         tag: 'Bedroom'
       },
       {
+        checked: false,
         sizeBig: true,
         imgSrc: 'styles/img/project-card-imgs/project-photo9.jpg',
         name: 'Minimal Bedroom table',
@@ -181,6 +186,7 @@ export default new Vuex.Store({
         tag: 'Bedroom'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'styles/img/project-card-imgs/project-photo10.jpg',
         name: 'System Table',
@@ -188,6 +194,7 @@ export default new Vuex.Store({
         tag: 'Bedroom'
       },
       {
+        checked: false,
         sizeBig: true,
         imgSrc: 'styles/img/project-card-imgs/project-photo11.jpg',
         name: 'Modern Bedroom',
@@ -195,6 +202,7 @@ export default new Vuex.Store({
         tag: 'Bedroom'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'styles/img/project-card-imgs/project-photo12.jpg',
         name: 'Modern Bedroom',
@@ -202,6 +210,7 @@ export default new Vuex.Store({
         tag: 'Bedroom'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'photo.jpg',
         name: 'Modern Bathroom',
@@ -209,6 +218,7 @@ export default new Vuex.Store({
         tag: 'Bathroom'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'photo.jpg',
         name: 'Modern Bathroom',
@@ -216,6 +226,7 @@ export default new Vuex.Store({
         tag: 'Bathroom'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'photo.jpg',
         name: 'Bathroom',
@@ -223,6 +234,7 @@ export default new Vuex.Store({
         tag: 'Bathroom'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'photo.jpg',
         name: 'Kitchan',
@@ -230,6 +242,7 @@ export default new Vuex.Store({
         tag: 'Kitchan'
       },
       {
+        checked: false,
         sizeBig: false,
         imgSrc: 'photo.jpg',
         name: 'Modern Kitchan',
@@ -237,6 +250,15 @@ export default new Vuex.Store({
         tag: 'Kitchan'
       },
       {
+        checked: false,
+        sizeBig: true,
+        imgSrc: 'photo.jpg',
+        name: 'Modern Living Area',
+        type: 'Decor / Artchitecture',
+        tag: 'Living Area'
+      },
+      {
+        checked: false,
         sizeBig: false,
         imgSrc: 'photo.jpg',
         name: 'Modern Living Area',
@@ -244,20 +266,15 @@ export default new Vuex.Store({
         tag: 'Living Area'
       },
       {
-        sizeBig: false,
+        checked: false,
+        sizeBig: true,
         imgSrc: 'photo.jpg',
         name: 'Modern Living Area',
         type: 'Decor / Artchitecture',
         tag: 'Living Area'
       },
       {
-        sizeBig: false,
-        imgSrc: 'photo.jpg',
-        name: 'Modern Living Area',
-        type: 'Decor / Artchitecture',
-        tag: 'Living Area'
-      },
-      {
+        checked: false,
         sizeBig: false,
         imgSrc: 'photo.jpg',
         name: 'Modern Living Area',

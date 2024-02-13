@@ -1,12 +1,42 @@
 .project-card {
+    position: relative;
     grid-row: span 2;
+    width: 585px;
+    min-width: 200px;
 
     &--big {
         grid-row: span 3;
+
+        & img {
+            min-height: 853px;
+        }
     }
 
     &__img {
         margin-bottom: 24px;
+        min-height: 520px;
+        min-width: 100%;
+        background-color: $main-color;
+    }
+
+    &__star {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        stroke: #ffa928;
+
+        & path {
+            fill: transparent;
+        }
+
+        &--checked {
+            filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.3));
+
+            & path {
+                fill: #ffa928;
+            }
+        }
     }
 
     &__description {
