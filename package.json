@@ -11,7 +11,7 @@
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.6.5",
-    "vue-slick-carousel": "^1.0.6",
+    "vue-tiny-slider": "^0.1.39",
     "vuex": "^3.6.2"
   },
   "devDependencies": {

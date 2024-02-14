@@ -5,8 +5,9 @@
     margin: 0 auto 220px;
     padding: 0 20px;
 
-    &__item {
-        margin-bottom: 20px;
+    &__img {
+        position: relative;
+        display: inline-block;
         transition: all .5s;
         cursor: pointer;
 
@@ -34,14 +35,28 @@
             border-radius: 70px;
         }
     }
+}
 
-    &__pagination {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-    }
+.tns-outer {
+    position: relative;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
 
-    &__pagination-item {
+.tns-visually-hidden {
+    display: none;
+}
+
+.tns-nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    & button {
         height: 25px;
         width: 25px;
         background-color: inherit;
@@ -49,5 +64,13 @@
         border: 3px solid $black-color;
         font-size: 0;
         cursor: pointer;
+
+        &:hover {
+            background-color: $second-color;
+        }
+    }
+
+    & .tns-nav-active {
+        background-color: $second-color;
     }
 }

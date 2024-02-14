@@ -1013,12 +1013,13 @@ img {
   margin: 0 auto 220px;
   padding: 0 20px;
 }
-.project-details-slider__item {
-  margin-bottom: 20px;
+.project-details-slider__img {
+  position: relative;
+  display: inline-block;
   transition: all 0.5s;
   cursor: pointer;
 }
-.project-details-slider__item::before {
+.project-details-slider__img::before {
   content: url("../styles/img/slider-zoom.svg");
   position: absolute;
   opacity: 0;
@@ -1033,18 +1034,33 @@ img {
   background-color: #fff;
   transition: all 0.5s;
 }
-.project-details-slider__item:hover::before {
+.project-details-slider__img:hover::before {
   opacity: 1;
 }
-.project-details-slider__item img {
+.project-details-slider__img img {
   border-radius: 70px;
 }
-.project-details-slider__pagination {
+
+.tns-outer {
+  position: relative;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.tns-visually-hidden {
+  display: none;
+}
+
+.tns-nav {
+  position: absolute;
   display: flex;
   justify-content: center;
   gap: 15px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
-.project-details-slider__pagination-item {
+.tns-nav button {
   height: 25px;
   width: 25px;
   background-color: inherit;
@@ -1052,6 +1068,12 @@ img {
   border: 3px solid #000;
   font-size: 0;
   cursor: pointer;
+}
+.tns-nav button:hover {
+  background-color: #CDA274;
+}
+.tns-nav .tns-nav-active {
+  background-color: #CDA274;
 }
 
 .pagination {
