@@ -1,0 +1,78 @@
+.project-card {
+    position: relative;
+    grid-row: span 2;
+    width: 585px;
+    min-width: 200px;
+
+    &--big {
+        grid-row: span 3;
+
+        & img {
+            min-height: 853px;
+        }
+    }
+
+    &__img {
+        margin-bottom: 24px;
+        min-height: 520px;
+        min-width: 100%;
+        background-color: $main-color;
+    }
+
+    &__star {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        stroke: #ffa928;
+
+        & path {
+            fill: transparent;
+        }
+
+        &--checked {
+            filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.3));
+
+            & path {
+                fill: #ffa928;
+            }
+        }
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        margin-bottom: 4px;
+        font-size: 25px;
+        letter-spacing: 0.02em;
+    }
+
+    &__type {
+        font-size: 22px;
+        letter-spacing: 0.01em;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+        background-color: $main-color;
+        border-radius: 100%;
+        transition: all .5s;
+
+        &:hover {
+            background-color: $second-color;
+        }
+
+        & svg {
+            margin-left: 5px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.project-details {
+
+    & .center-container {
+        position: relative;
+        height: 100%;
+
+        & .linear {
+            height: 160%;
+        }
+    }
+
+    &__promo-img {
+        position: relative;
+        margin-bottom: 200px;
+        height: 350px;
+        background-image: url(../styles/img/project-details-promo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
